@@ -1,0 +1,747 @@
+.outline-blue-button-container {
+  display: flex;
+  position: relative;
+}
+.outline-blue-button-button {
+  color: var(--dl-color-blue-500);
+  cursor: pointer;
+  background: white;
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-blue-500);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: var(--dl-radius-radius-radius5);
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.outline-blue-button-button:hover {
+  transform: scale(1.02);
+}
+.outline-blue-button-root-class-name {
+  align-self: flex-start;
+}
+
+.sosmed-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dbdbdb;
+}
+.sosmed-navbar-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  background-color: rgba(63, 63, 63, 0.82);
+}
+.sosmed-navbar {
+  width: 100%;
+  height: 89px;
+  display: flex;
+  opacity: 1;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: 56px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  backdrop-filter: 10px;
+  justify-content: space-between;
+  background-color: rgba(99, 99, 99, 0);
+}
+.sosmed-image {
+  width: 200px;
+  object-fit: cover;
+}
+.sosmed-navbar-interactive {
+  width: 16px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.sosmed-burger-menu {
+  display: none;
+}
+.sosmed-icon {
+  width: 16px;
+  height: 16px;
+}
+.sosmed-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  backdrop-filter: blur(80px);
+  justify-content: space-between;
+  background-color: #fff;
+}
+.sosmed-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sosmed-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+.sosmed-logo {
+  height: 2rem;
+}
+.sosmed-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sosmed-icon02 {
+  width: 16px;
+  height: 16px;
+}
+.sosmed-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sosmed-navlink {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sosmed-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sosmed-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sosmed-navlink2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sosmed-icon04 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.sosmed-icon06 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.sosmed-icon08 {
+  width: 16px;
+  height: 16px;
+}
+.sosmed-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.sosmed-link {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.sosmed-link1 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.sosmed-link2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.sosmed-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  margin-top: var(--dl-space-space-tenunits);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.sosmed-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.sosmed-about {
+  width: 100%;
+  height: 488px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.sosmed-profile {
+  width: 100%;
+  height: 443px;
+  display: flex;
+  max-width: 1320px;
+  align-items: flex-start;
+  padding-top: 87px;
+  padding-left: 122px;
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+}
+.sosmed-image1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.sosmed-container01 {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-sixunits);
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+}
+.sosmed-container02 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sosmed-text01 {
+  color: var(--dl-color-secondary-700);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.sosmed-link3 {
+  display: contents;
+}
+.sosmed-component {
+  text-decoration: none;
+}
+.sosmed-container03 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.sosmed-text02 {
+  margin-right: var(--dl-space-space-unit);
+}
+.sosmed-text03 {
+  margin-right: var(--dl-space-space-unit);
+}
+.sosmed-text05 {
+  font-size: 1.125rem;
+  font-family: PT Sans;
+  font-weight: 400;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+.sosmed-text08 {
+  line-height: 1.6;
+}
+.sosmed-text09 {
+  line-height: 1.6;
+}
+.sosmed-text10 {
+  line-height: 1.6;
+}
+.sosmed-text11 {
+  line-height: 1.6;
+}
+.sosmed-text12 {
+  line-height: 1.6;
+}
+.sosmed-text13 {
+  line-height: 1.6;
+}
+.sosmed-text14 {
+  line-height: 1.6;
+}
+.sosmed-text15 {
+  line-height: 1.6;
+}
+.sosmed-text16 {
+  line-height: 1.6;
+}
+.sosmed-text17 {
+  line-height: 1.6;
+}
+.sosmed-text18 {
+  line-height: 1.6;
+}
+.sosmed-about1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 103px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(94, 94, 94, 0.3);
+}
+.sosmed-max-content-width-container {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.sosmed-text20 {
+  align-self: flex-start;
+  margin-bottom: 37px;
+}
+.sosmed-card {
+  width: 100%;
+  height: 187px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+}
+.sosmed-container04 {
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sosmed-text23 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.sosmed-text24 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sosmed-container05 {
+  display: flex;
+  position: relative;
+}
+.sosmed-navlink3 {
+  color: var(--dl-color-blue-500);
+  display: flex;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.sosmed-text25 {
+  color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.sosmed-icon10 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.sosmed-navlink4 {
+  display: contents;
+}
+.sosmed-container06 {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  backdrop-filter: blur(30px);
+  text-decoration: none;
+  background-color: rgba(0,0,0,.4);
+}
+.sosmed-card1 {
+  width: 100%;
+  height: 187px;
+  display: flex;
+  padding: var(--dl-space-space-unitandahalfunit);
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://media.tenor.com/Cj6lhIOKJ7MAAAAd/villager-minecraft.gif');
+}
+.sosmed-container07 {
+  display: flex;
+  z-index: 2;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sosmed-text26 {
+  color: var(--dl-color-gray-white);
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.sosmed-text27 {
+  color: var(--dl-color-gray-white);
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sosmed-container08 {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  margin-left: 113px;
+  justify-content: flex-end;
+}
+.sosmed-button {
+  color: var(--dl-color-blue-500);
+  display: flex;
+  align-self: stretch;
+  text-align: right;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.sosmed-text28 {
+  color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.sosmed-icon12 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.sosmed-container09 {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-color: rgba(0,0,0,.4);
+}
+.sosmed-section-separator2 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.sosmed-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.sosmed-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.sosmed-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.sosmed-icon14 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.sosmed-icon16 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.sosmed-icon18 {
+  width: 24px;
+  height: 24px;
+}
+.sosmed-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.sosmed-icon20 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .sosmed-navbar {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .sosmed-navbar-interactive {
+    width: 81px;
+    height: 11px;
+    padding-top: 0px;
+  }
+  .sosmed-about {
+    height: 381px;
+    padding-bottom: 0px;
+    background-color: #d0d0d0;
+  }
+  .sosmed-container01 {
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .sosmed-about1 {
+    height: 869px;
+    padding-bottom: 639px;
+    background-color: #d2d2d2;
+  }
+  .sosmed-max-content-width-container {
+    height: 265px;
+    margin-top: 0px;
+  }
+  .sosmed-card {
+    width: 100%;
+    background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+  }
+  .sosmed-card1 {
+    width: 100%;
+    background-image: url('https://media.tenor.com/Cj6lhIOKJ7MAAAAd/villager-minecraft.gif');
+  }
+}
+@media(max-width: 767px) {
+  .sosmed-navbar {
+    position: relative;
+  }
+  .sosmed-navbar-interactive {
+    width: 52px;
+    height: 46px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .sosmed-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sosmed-icon {
+    fill: #D9D9D9;
+    width: 47px;
+    height: 42px;
+  }
+  .sosmed-mobile-menu {
+    top: 0px;
+    width: 265px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .sosmed-top {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-logo {
+    width: 188px;
+    height: 62px;
+    padding-right: 0px;
+  }
+  .sosmed-icon02 {
+    fill: #D9D9D9;
+  }
+  .sosmed-links {
+    width: 147px;
+    height: 146px;
+    align-self: flex-end;
+  }
+  .sosmed-navlink {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-navlink1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-navlink2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-links-container {
+    display: none;
+  }
+  .sosmed-about {
+    height: 711px;
+    padding-bottom: 0px;
+  }
+  .sosmed-profile {
+    height: 823px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .sosmed-container01 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sosmed-container02 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-text01 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .sosmed-about1 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .sosmed-text20 {
+    text-align: center;
+  }
+  .sosmed-text21 {
+    text-align: center;
+  }
+  .sosmed-card {
+    background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+  }
+}
+@media(max-width: 479px) {
+  .sosmed-navbar {
+    height: 86px;
+  }
+  .sosmed-image {
+    width: 128px;
+    height: 56px;
+  }
+  .sosmed-navbar-interactive {
+    width: 29px;
+    padding: var(--dl-space-space-unit);
+  }
+  .sosmed-mobile-menu {
+    padding: 16px;
+  }
+  .sosmed-links {
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .sosmed-navlink2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sosmed-about {
+    height: 611px;
+    background-color: #ffffff;
+  }
+  .sosmed-about1 {
+    padding-top: 74px;
+    background-color: #ffffff;
+  }
+  .sosmed-card {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXWvzp8zzIU6Z4NWuJlEBqjO904EjGqyRRw&usqp=CAU');
+  }
+  .sosmed-text24 {
+    color: var(--dl-color-gray-white);
+    font-weight: 400;
+  }
+}
