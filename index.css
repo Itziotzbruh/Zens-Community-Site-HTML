@@ -40,6 +40,9 @@
 
 
 
+
+
+
 .outline-black-button2-container {
   display: flex;
   position: relative;
@@ -67,10 +70,11 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #dbdbdb;
+  background-color: #0f0f0f;
 }
 .home-navbar-container {
   width: 100%;
+  height: 85px;
   display: flex;
   z-index: 100;
   position: fixed;
@@ -264,6 +268,15 @@
   justify-content: center;
   background-image: url('https://media.giphy.com/media/3oEhmWiKWr7HKOB8qs/giphy.gif');
 }
+.home-container02 {
+  width: 100%;
+  height: 538px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(50px);
+  justify-content: center;
+}
 .home-hero {
   width: 100%;
   height: 896px;
@@ -275,7 +288,6 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fiveunits);
-  backdrop-filter: blur(50px);
   justify-content: space-between;
 }
 .home-hero-text-container {
@@ -288,7 +300,7 @@
   flex-direction: column;
 }
 .home-heading {
-  color: rgb(255, 255, 255);
+  color: #2f2f2f;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
 .home-text03 {
@@ -297,7 +309,7 @@
   line-height: 1;
 }
 .home-text05 {
-  color: #ffffff;
+  color: #252525;
   margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-section {
@@ -340,13 +352,21 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-container03 {
+  width: 100%;
+  height: 645px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
 .home-section1 {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
-  height: 579px;
+  height: 745px;
   display: flex;
   align-items: center;
-  padding-top: 43px;
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
@@ -406,7 +426,6 @@
   display: flex;
   align-items: center;
   padding-top: 120px;
-  border-color: #51515A;
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
@@ -431,8 +450,8 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text12 {
-  color: var(--dl-color-gray-black);
+.home-heading3 {
+  color: #ffffff;
 }
 .home-right2 {
   gap: var(--dl-space-space-unit);
@@ -498,6 +517,15 @@
   line-height: 24px;
   white-space: nowrap;
 }
+.home-container04 {
+  width: 100%;
+  height: 843px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
 .home-features {
   width: 100%;
   height: 842px;
@@ -511,7 +539,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
-  background-color: #D9D9D9;
 }
 .home-heading-container {
   width: 45%;
@@ -537,7 +564,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-container02 {
+.home-container05 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -546,7 +573,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-container03 {
+.home-container06 {
   display: flex;
   position: relative;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
@@ -563,10 +590,10 @@
   background-image: url("public/minecraft-villager-1500w.gif");
   background-position: center;
 }
-.home-container03:hover {
+.home-container06:hover {
   transform: scale(1.04);
 }
-.home-container04 {
+.home-container07 {
   top: 0px;
   left: 0px;
   right: auto;
@@ -577,7 +604,7 @@
   background: rgba(0,0,0,.4);
   border-radius: var(--dl-radius-radius-radius1);
 }
-.home-container05 {
+.home-container08 {
   display: flex;
   z-index: 1;
   align-items: center;
@@ -594,7 +621,7 @@
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-container06 {
+.home-container09 {
   width: 100%;
   height: 229px;
   margin: var(--dl-space-space-unit9);
@@ -643,6 +670,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
 }
 .home-text27 {
+  color: #ffffff;
   align-self: flex-start;
   margin-bottom: 37px;
 }
@@ -659,7 +687,7 @@
   background-size: cover;
   background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
 }
-.home-container07 {
+.home-container10 {
   display: flex;
   z-index: 2;
   align-items: flex-start;
@@ -676,7 +704,7 @@
   font-weight: 400;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-container08 {
+.home-container11 {
   display: flex;
   position: relative;
 }
@@ -704,7 +732,7 @@
 .home-navlink4 {
   display: contents;
 }
-.home-container09 {
+.home-container12 {
   top: auto;
   flex: 0 0 auto;
   left: 0px;
@@ -735,7 +763,7 @@
   background-size: cover;
   background-image: url('https://media.tenor.com/Cj6lhIOKJ7MAAAAd/villager-minecraft.gif');
 }
-.home-container10 {
+.home-container13 {
   display: flex;
   z-index: 2;
   align-self: flex-end;
@@ -754,7 +782,7 @@
   font-weight: 400;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-container11 {
+.home-container14 {
   display: flex;
   position: relative;
   align-items: stretch;
@@ -783,7 +811,7 @@
   width: 24px;
   height: 24px;
 }
-.home-container12 {
+.home-container15 {
   top: auto;
   flex: 0 0 auto;
   left: 0px;
@@ -911,10 +939,13 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+  .home-container03 {
+    height: 1012px;
+  }
   .home-section1 {
     gap: var(--dl-space-space-threeunits);
-    height: 833px;
-    padding-top: 100px;
+    height: 960px;
+    padding-top: 0px;
     padding-bottom: 100px;
   }
   .home-header1 {
@@ -954,6 +985,9 @@
   .home-get-started {
     width: 100%;
   }
+  .home-container04 {
+    height: 1012px;
+  }
   .home-features {
     height: 819px;
   }
@@ -971,7 +1005,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .home-container06 {
+  .home-container09 {
     width: 100%;
   }
   .home-text22 {
@@ -1095,11 +1129,20 @@
   .home-left {
     gap: var(--dl-space-space-unit);
   }
+  .home-container03 {
+    width: 100%;
+  }
+  .home-section1 {
+    height: 1121px;
+    padding-top: 0px;
+  }
   .home-left1 {
     gap: var(--dl-space-space-unit);
+    height: 195px;
   }
   .home-section3 {
     height: 750px;
+    border-color: #ffffff;
   }
   .home-left2 {
     gap: var(--dl-space-space-unit);
@@ -1109,6 +1152,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .home-container04 {
+    width: 100%;
+    height: 869px;
   }
   .home-features {
     height: 1135px;
@@ -1122,11 +1169,11 @@
     margin-left: 0px;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-container02 {
+  .home-container05 {
     margin-top: 0px;
     flex-direction: column;
   }
-  .home-container06 {
+  .home-container09 {
     margin-top: 88px;
   }
   .home-text22 {
@@ -1181,13 +1228,20 @@
   .home-section {
     height: 432px;
   }
+  .home-container03 {
+    height: 1725px;
+  }
   .home-section1 {
-    height: 1548px;
+    height: 1328px;
+    padding-top: 0px;
   }
   .home-section3 {
     height: 981px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+  }
+  .home-container04 {
+    height: 764px;
   }
   .home-heading-container {
     width: 178px;
@@ -1211,6 +1265,9 @@
   }
   .home-text25 {
     font-size: 40px;
+  }
+  .home-about {
+    background-color: #313131;
   }
   .home-card {
     background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
