@@ -1,79 +1,22 @@
-.secondary-button-container {
+.outline-black-button2-container {
   display: flex;
   position: relative;
-  -webkit-tap-highlight-color: transparent;
 }
-.secondary-button-button {
-  color: #000000;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+.outline-black-button2-button {
+  color: var(--dl-color-secondary-700);
+  cursor: pointer;
+  outline: none;
+  min-width: 150px;
   transition: 0.3s;
-  line-height: 1;
-  padding-top: var(--dl-space-space-halfunit1);
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unit1);
-  padding-right: var(--dl-space-space-unit1);
-  padding-bottom: var(--dl-space-space-halfunit1);
-  text-transform: uppercase;
-  background-color: #00aa41;
-  -webkit-tap-highlight-color: transparent;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  padding-left: var(--dl-space-space-fourunits);
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
 }
-.secondary-button-button:hover {
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+.outline-black-button2-button:hover {
+  transform: scale(1.02);
 }
-
-
-
-.primary-button-container {
-  display: flex;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-}
-.primary-button-button {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  line-height: 1;
-  padding-top: var(--dl-space-space-halfunit1);
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unit1);
-  padding-right: var(--dl-space-space-unit1);
-  padding-bottom: var(--dl-space-space-halfunit1);
-  text-transform: uppercase;
-  background-color: #4454ff;
-  -webkit-tap-highlight-color: transparent;
-}
-.primary-button-button:hover {
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-}
-.primary-button-button:active {
-  background-color: var(--dl-color-danger-300);
-}
-
-.primary-button1-container {
-  display: flex;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-}
-.primary-button1-button {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  line-height: 1;
-  padding-top: var(--dl-space-space-halfunit1);
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unit1);
-  padding-right: var(--dl-space-space-unit1);
-  padding-bottom: var(--dl-space-space-halfunit1);
-  text-transform: uppercase;
-  background-color: #c644ff;
-  -webkit-tap-highlight-color: transparent;
-}
-.primary-button1-button:hover {
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-}
-.primary-button1-button:active {
-  background-color: var(--dl-color-danger-300);
-}
-
-
 
 .join-container {
   width: 100%;
@@ -271,13 +214,13 @@
 }
 .join-container01 {
   width: 100%;
-  height: 808px;
+  height: 980px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/picsart_23-08-08_08-31-24-031-900h.jpg");
+  background-image: url("public/picsart_23-08-08_08-31-24-031-1000h.jpg");
 }
 .join-hero {
   width: 100%;
@@ -306,9 +249,9 @@
   color: rgb(255, 255, 255);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.join-about {
+.join-nam-tag {
   width: 100%;
-  height: 83px;
+  height: 120px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -318,7 +261,7 @@
 }
 .join-container02 {
   width: 90%;
-  height: 304px;
+  height: 213px;
   display: flex;
   z-index: 100;
   max-width: 1320px;
@@ -361,41 +304,6 @@
   color: rgb(161, 182, 203);
 }
 .join-container05 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.join-text06 {
-  color: var(--dl-color-secondary-500);
-  font-weight: 600;
-  margin-left: var(--dl-space-space-halfunit1);
-}
-.join-container06 {
-  width: 315px;
-  height: 75px;
-  display: flex;
-  align-items: flex-start;
-  padding-top: 19px;
-  justify-content: center;
-}
-.join-link4 {
-  display: contents;
-}
-.join-component {
-  text-decoration: none;
-}
-.join-component1 {
-  text-decoration: none;
-}
-.join-link5 {
-  display: contents;
-}
-.join-component2 {
-  text-decoration: none;
-}
-.join-container07 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
@@ -403,186 +311,211 @@
   flex-direction: row;
   justify-content: center;
 }
-.join-about1 {
+.join-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 103px;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fourunits);
   justify-content: center;
-  background-color: rgba(94, 94, 94, 0.3);
 }
-.join-max-content-width-container {
+.join-container06 {
   width: 100%;
+  height: 488px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 115px;
+  justify-content: center;
+}
+.join-features {
+  width: 100%;
+  height: 413px;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
-  margin-top: 211px;
+  align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-tripleunit);
-  margin-bottom: var(--dl-space-space-fiveunits);
+  margin-bottom: 53px;
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
 }
-.join-text07 {
-  align-self: flex-start;
-  margin-bottom: 37px;
-}
-.join-card {
+.join-container07 {
+  flex: 0 0 auto;
   width: 100%;
-  height: 187px;
   display: flex;
-  padding: var(--dl-space-space-unitandahalfunit);
-  position: relative;
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius1);
-  margin-bottom: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-  background-size: cover;
-  background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .join-container08 {
   display: flex;
-  z-index: 2;
-  align-items: flex-start;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: c1407ad2-35f0-4e5a-a7fb-f233242f13b3;
+  background-position: center;
 }
-.join-text10 {
-  color: var(--dl-color-gray-white);
-  margin-top: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.join-text11 {
-  color: var(--dl-color-gray-white);
-  margin-top: var(--dl-space-space-unit);
-  font-weight: 400;
-  margin-bottom: var(--dl-space-space-unit);
+.join-container08:hover {
+  transform: scale(1.04);
 }
 .join-container09 {
-  display: flex;
-  position: relative;
-}
-.join-navlink3 {
-  color: var(--dl-color-blue-500);
-  display: flex;
-  padding-top: var(--dl-space-space-halfunit);
-  border-width: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-  background-color: transparent;
-}
-.join-text12 {
-  color: var(--dl-color-gray-white);
-  margin-right: var(--dl-space-space-halfunit);
-}
-.join-icon10 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.join-navlink4 {
-  display: contents;
-}
-.join-container10 {
-  top: auto;
-  flex: 0 0 auto;
+  top: 0px;
   left: 0px;
   right: auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  bottom: 0px;
+  bottom: auto;
   height: 100%;
-  display: flex;
   position: absolute;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
+  background: rgba(0,0,0,.4);
   border-radius: var(--dl-radius-radius-radius1);
-  flex-direction: column;
-  backdrop-filter: blur(30px);
-  text-decoration: none;
-  background-color: rgba(0,0,0,.4);
 }
-.join-card1 {
-  width: 100%;
-  height: 187px;
+.join-container10 {
   display: flex;
-  padding: var(--dl-space-space-unitandahalfunit);
-  position: relative;
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius1);
+  z-index: 1;
+  align-items: center;
   flex-direction: column;
-  background-size: cover;
-  background-image: url('https://media.tenor.com/Cj6lhIOKJ7MAAAAd/villager-minecraft.gif');
+  justify-content: center;
+}
+.join-text06 {
+  color: var(--dl-color-gray-white);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.join-link4 {
+  display: contents;
+}
+.join-component {
+  text-decoration: none;
 }
 .join-container11 {
+  width: 29px;
+  height: 405px;
   display: flex;
-  z-index: 2;
-  align-self: flex-end;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-}
-.join-text13 {
-  color: var(--dl-color-gray-white);
-  align-self: flex-end;
-  margin-top: var(--dl-space-space-halfunit);
-}
-.join-text14 {
-  color: var(--dl-color-gray-white);
-  align-self: flex-end;
-  margin-top: var(--dl-space-space-unit);
-  font-weight: 400;
-  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
 }
 .join-container12 {
   display: flex;
   position: relative;
-  align-items: stretch;
-  margin-left: 113px;
-  justify-content: flex-end;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/minecraft-villager-1500h.gif");
+  background-position: center;
 }
-.join-button {
-  color: var(--dl-color-blue-500);
-  display: flex;
-  align-self: stretch;
-  text-align: right;
-  padding-top: var(--dl-space-space-halfunit);
-  border-width: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-halfunit);
-  background-color: transparent;
-}
-.join-text15 {
-  color: var(--dl-color-gray-white);
-  margin-right: var(--dl-space-space-halfunit);
-}
-.join-icon12 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
+.join-container12:hover {
+  transform: scale(1.04);
 }
 .join-container13 {
-  top: auto;
-  flex: 0 0 auto;
+  top: 0px;
   left: 0px;
   right: auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  bottom: 0px;
+  bottom: auto;
   height: 100%;
-  display: flex;
   position: absolute;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
+  background: rgba(0,0,0,.4);
   border-radius: var(--dl-radius-radius-radius1);
+}
+.join-container14 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
   flex-direction: column;
-  background-color: rgba(0,0,0,.4);
+  justify-content: center;
+}
+.join-text09 {
+  color: var(--dl-color-gray-white);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.join-link5 {
+  display: contents;
+}
+.join-component1 {
+  text-decoration: none;
+}
+.join-container15 {
+  width: 29px;
+  height: 405px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.join-container16 {
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/minecraft-villager-1500h.gif");
+  background-position: center;
+}
+.join-container16:hover {
+  transform: scale(1.04);
+}
+.join-container17 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  border-radius: var(--dl-radius-radius-radius1);
+}
+.join-container18 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.join-text14 {
+  color: var(--dl-color-gray-white);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.join-link6 {
+  display: contents;
+}
+.join-component2 {
+  text-decoration: none;
 }
 .join-section-separator2 {
   width: 100%;
@@ -591,55 +524,6 @@
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
-}
-.join-footer-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
-}
-.join-footer {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxcontent);
-  align-items: center;
-  padding-top: var(--dl-space-space-tripleunit);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: space-between;
-}
-.join-social-links {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-}
-.join-icon14 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.join-icon16 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.join-icon18 {
-  width: 24px;
-  height: 24px;
-}
-.join-copyright-container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.join-icon20 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
 }
 @media(max-width: 991px) {
   .join-navbar {
@@ -666,7 +550,7 @@
     align-self: flex-start;
     text-align: left;
   }
-  .join-about {
+  .join-nam-tag {
     height: 381px;
     padding-bottom: 0px;
     background-color: #d0d0d0;
@@ -674,22 +558,17 @@
   .join-container03 {
     flex-direction: column;
   }
-  .join-about1 {
-    height: 869px;
-    padding-bottom: 639px;
-    background-color: #d2d2d2;
+  .join-container06 {
+    height: 1012px;
   }
-  .join-max-content-width-container {
-    height: 265px;
-    margin-top: 0px;
+  .join-features {
+    height: 819px;
   }
-  .join-card {
-    width: 100%;
-    background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+  .join-container11 {
+    height: 1012px;
   }
-  .join-card1 {
-    width: 100%;
-    background-image: url('https://media.tenor.com/Cj6lhIOKJ7MAAAAd/villager-minecraft.gif');
+  .join-container15 {
+    height: 1012px;
   }
 }
 @media(max-width: 767px) {
@@ -780,22 +659,44 @@
   .join-heading {
     color: #ffffff;
   }
-  .join-about {
+  .join-nam-tag {
     height: 413px;
     padding-bottom: 0px;
   }
-  .join-about1 {
+  .join-container06 {
+    width: 100%;
+    height: 869px;
+  }
+  .join-features {
+    height: 1135px;
+  }
+  .join-container07 {
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 90px;
+    flex-direction: column;
   }
-  .join-text07 {
-    text-align: center;
+  .join-container08 {
+    background-image: url('https://th.bing.com/th/id/OIP.hbr47SG8Nl1CUsQBVLhz_AHaHa?pid=ImgDet&rs=1');
   }
-  .join-text08 {
-    text-align: center;
+  .join-container11 {
+    width: 100%;
+    height: 20px;
   }
-  .join-card {
-    background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
+  .join-container12 {
+    background-image: url('https://th.bing.com/th/id/R.149598e576b6131b30955803e4745b22?rik=JyFvl%2fGhW5RCyQ&pid=ImgRaw&r=0');
+  }
+  .join-text09 {
+    color: var(--dl-color-gray-white);
+  }
+  .join-container15 {
+    width: 100%;
+    height: 18px;
+  }
+  .join-container16 {
+    background-image: url('https://logos-world.net/wp-content/uploads/2021/05/Discord-New-Logo.png');
+  }
+  .join-text14 {
+    color: var(--dl-color-gray-white);
   }
 }
 @media(max-width: 479px) {
@@ -825,22 +726,40 @@
   .join-heading {
     color: #ffffff;
   }
-  .join-about {
-    height: 297px;
+  .join-nam-tag {
+    width: 100%;
+    height: 107px;
+    margin-bottom: 0px;
+    padding-bottom: 51px;
     background-color: #ffffff;
   }
   .join-container02 {
-    height: 387px;
+    height: 177px;
   }
-  .join-about1 {
-    padding-top: 74px;
-    background-color: #ffffff;
+  .join-footer-container {
+    height: 1066px;
   }
-  .join-card {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXWvzp8zzIU6Z4NWuJlEBqjO904EjGqyRRw&usqp=CAU');
+  .join-container06 {
+    height: 764px;
   }
-  .join-text11 {
+  .join-features {
+    height: 1494px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .join-text06 {
     color: var(--dl-color-gray-white);
-    font-weight: 400;
+  }
+  .join-container11 {
+    height: 39px;
+  }
+  .join-text09 {
+    color: var(--dl-color-gray-white);
+  }
+  .join-container15 {
+    height: 7px;
+  }
+  .join-text14 {
+    color: var(--dl-color-gray-white);
   }
 }
