@@ -305,11 +305,6 @@
 .home-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text03 {
-  font-size: 70px;
-  font-family: PT Sans;
-  line-height: 1;
-}
 .home-section {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
@@ -392,13 +387,13 @@
 .home-section2 {
   color: var(--dl-color-gray-black);
 }
-.home-text11 {
+.home-text05 {
   color: var(--dl-color-gray-black);
 }
-.home-text12 {
+.home-text06 {
   color: var(--dl-color-gray-black);
 }
-.home-text13 {
+.home-text07 {
   color: var(--dl-color-gray-black);
 }
 .home-right1 {
@@ -507,7 +502,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text17 {
+.home-text11 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -549,7 +544,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text18 {
+.home-text12 {
   color: var(--dl-color-gray-black);
   width: 324px;
   font-size: 55px;
@@ -609,13 +604,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text19 {
+.home-text13 {
   color: var(--dl-color-gray-white);
   max-width: 200px;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text24 {
+.home-text18 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
@@ -661,12 +656,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text25 {
+.home-text19 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text26 {
+.home-text20 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 400;
@@ -688,7 +683,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.home-text27 {
+.home-text21 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -738,12 +733,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text28 {
+.home-text22 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-halfunit);
 }
-.home-text29 {
+.home-text23 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-unit);
@@ -770,7 +765,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.home-text30 {
+.home-text24 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -869,24 +864,9 @@
     margin-bottom: var(--dl-space-space-fourunits);
   }
   .home-heading {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     align-self: flex-start;
     text-align: left;
-  }
-  .home-text01 {
-    font-size: 80px;
-    font-family: PT Sans;
-    line-height: 1;
-  }
-  .home-text02 {
-    font-size: 80px;
-    font-family: PT Sans;
-    line-height: 1;
-  }
-  .home-text03 {
-    font-size: 70px;
-    font-family: PT Sans;
-    line-height: 1;
   }
   .home-section {
     gap: var(--dl-space-space-threeunits);
@@ -955,7 +935,7 @@
   .home-heading-container {
     margin-right: 45px;
   }
-  .home-text18 {
+  .home-text12 {
     color: var(--dl-color-gray-black);
     font-size: 55px;
     text-align: center;
@@ -1074,21 +1054,6 @@
   .home-heading {
     color: rgb(255, 255, 255);
   }
-  .home-text01 {
-    font-size: 80px;
-    font-family: PT Sans;
-    line-height: 1;
-  }
-  .home-text02 {
-    font-size: 80px;
-    font-family: PT Sans;
-    line-height: 1;
-  }
-  .home-text03 {
-    font-size: 70px;
-    font-family: PT Sans;
-    line-height: 1;
-  }
   .home-left {
     gap: var(--dl-space-space-unit);
   }
@@ -1127,7 +1092,7 @@
     width: 100%;
     margin-right: 29px;
   }
-  .home-text18 {
+  .home-text12 {
     color: var(--dl-color-gray-black);
     margin-left: 0px;
     margin-bottom: var(--dl-space-space-tripleunit);
@@ -1173,38 +1138,9 @@
     justify-content: flex-start;
   }
   .home-heading {
-    align-self: flex-start;
-    text-align: left;
+    align-self: center;
+    text-align: center;
     padding-left: 20px;
-  }
-  .home-text01 {
-    font-size: 65px;
-    font-family: Arial;
-    font-weight: 700;
-    line-height: 1;
-  }
-  .home-text02 {
-    font-size: 65px;
-    font-family: Arial;
-    font-weight: 700;
-    line-height: 1;
-  }
-  .home-text03 {
-    font-size: 65px;
-    font-family: Arial;
-    font-weight: 700;
-    line-height: 1;
-  }
-  .home-text05 {
-    font-size: 17px;
-    line-height: 2;
-  }
-  .home-text06 {
-    line-height: 2;
-  }
-  .home-text07 {
-    font-size: 17px;
-    line-height: 1;
   }
   .home-section {
     height: 432px;
@@ -1228,10 +1164,10 @@
     width: 178px;
     margin-right: 27px;
   }
-  .home-text19 {
+  .home-text13 {
     color: var(--dl-color-gray-white);
   }
-  .home-text24 {
+  .home-text18 {
     color: var(--dl-color-gray-white);
   }
   .home-about {
@@ -1240,7 +1176,7 @@
   .home-card {
     background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
   }
-  .home-text26 {
+  .home-text20 {
     color: var(--dl-color-gray-white);
     font-weight: 400;
   }
