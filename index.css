@@ -269,7 +269,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://media.giphy.com/media/3oEhmWiKWr7HKOB8qs/giphy.gif');
+  background-image: url('https://th.bing.com/th/id/R.b1aa00d50578a92af38e3d7a282fe604?rik=w%2f0ZhFx7fd%2bNbw&pid=ImgRaw&r=0');
 }
 .home-container02 {
   width: 100%;
@@ -303,17 +303,12 @@
   flex-direction: column;
 }
 .home-heading {
-  color: #2f2f2f;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
 .home-text03 {
   font-size: 70px;
   font-family: PT Sans;
   line-height: 1;
-}
-.home-text05 {
-  color: #252525;
-  margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-section {
   gap: var(--dl-space-space-fiveunits);
@@ -325,7 +320,7 @@
   padding-left: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
-  background-color: #ff7272;
+  background-color: #ffa100;
 }
 .home-header {
   width: 100%;
@@ -345,7 +340,7 @@
   justify-content: center;
 }
 .home-heading1 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 .home-right {
   gap: var(--dl-space-space-unit);
@@ -397,13 +392,13 @@
 .home-section2 {
   color: var(--dl-color-gray-black);
 }
-.home-text08 {
+.home-text11 {
   color: var(--dl-color-gray-black);
 }
-.home-text09 {
+.home-text12 {
   color: var(--dl-color-gray-black);
 }
-.home-text10 {
+.home-text13 {
   color: var(--dl-color-gray-black);
 }
 .home-right1 {
@@ -504,7 +499,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-navlink2 {
+.home-link5 {
   display: contents;
 }
 .home-get-started {
@@ -512,7 +507,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text14 {
+.home-text17 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -554,7 +549,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text15 {
+.home-text18 {
   color: var(--dl-color-gray-black);
   width: 324px;
   font-size: 55px;
@@ -614,13 +609,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text16 {
+.home-text19 {
   color: var(--dl-color-gray-white);
   max-width: 200px;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text21 {
+.home-text24 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
@@ -666,12 +661,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text22 {
+.home-text25 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text23 {
+.home-text26 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 400;
@@ -681,7 +676,7 @@
   display: flex;
   position: relative;
 }
-.home-navlink3 {
+.home-navlink2 {
   color: var(--dl-color-blue-500);
   display: flex;
   padding-top: var(--dl-space-space-halfunit);
@@ -693,7 +688,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.home-text24 {
+.home-text27 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -702,7 +697,7 @@
   width: 24px;
   height: 24px;
 }
-.home-navlink4 {
+.home-navlink3 {
   display: contents;
 }
 .home-container11 {
@@ -743,12 +738,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text25 {
+.home-text28 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-halfunit);
 }
-.home-text26 {
+.home-text29 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-unit);
@@ -775,7 +770,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.home-text27 {
+.home-text30 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -879,7 +874,9 @@
     text-align: left;
   }
   .home-text01 {
-    text-align: center;
+    font-size: 80px;
+    font-family: PT Sans;
+    line-height: 1;
   }
   .home-text02 {
     font-size: 80px;
@@ -890,10 +887,6 @@
     font-size: 70px;
     font-family: PT Sans;
     line-height: 1;
-  }
-  .home-text05 {
-    align-self: flex-start;
-    text-align: left;
   }
   .home-section {
     gap: var(--dl-space-space-threeunits);
@@ -962,7 +955,7 @@
   .home-heading-container {
     margin-right: 45px;
   }
-  .home-text15 {
+  .home-text18 {
     color: var(--dl-color-gray-black);
     font-size: 55px;
     text-align: center;
@@ -1071,12 +1064,20 @@
   .home-links-container {
     display: none;
   }
+  .home-container01 {
+    background-image: url('https://th.bing.com/th/id/R.b1aa00d50578a92af38e3d7a282fe604?rik=w%2f0ZhFx7fd%2bNbw&pid=ImgRaw&r=0');
+  }
   .home-hero-text-container {
     flex-wrap: wrap;
     align-items: flex-start;
   }
   .home-heading {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
+  .home-text01 {
+    font-size: 80px;
+    font-family: PT Sans;
+    line-height: 1;
   }
   .home-text02 {
     font-size: 80px;
@@ -1126,7 +1127,7 @@
     width: 100%;
     margin-right: 29px;
   }
-  .home-text15 {
+  .home-text18 {
     color: var(--dl-color-gray-black);
     margin-left: 0px;
     margin-bottom: var(--dl-space-space-tripleunit);
@@ -1160,14 +1161,50 @@
   .home-links {
     padding-right: var(--dl-space-space-doubleunit);
   }
+  .home-container01 {
+    height: 465px;
+  }
   .home-hero-text-container {
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 0px;
     align-items: flex-start;
+    margin-left: 0px;
     justify-content: flex-start;
   }
   .home-heading {
-    color: #ffffff;
+    align-self: flex-start;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .home-text01 {
+    font-size: 65px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-text02 {
+    font-size: 65px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-text03 {
+    font-size: 65px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-text05 {
+    font-size: 17px;
+    line-height: 2;
+  }
+  .home-text06 {
+    line-height: 2;
+  }
+  .home-text07 {
+    font-size: 17px;
+    line-height: 1;
   }
   .home-section {
     height: 432px;
@@ -1191,10 +1228,10 @@
     width: 178px;
     margin-right: 27px;
   }
-  .home-text16 {
+  .home-text19 {
     color: var(--dl-color-gray-white);
   }
-  .home-text21 {
+  .home-text24 {
     color: var(--dl-color-gray-white);
   }
   .home-about {
@@ -1203,7 +1240,7 @@
   .home-card {
     background-image: url('https://media.tenor.com/-HtgekCqZt0AAAAC/minecraft-villager.gif');
   }
-  .home-text23 {
+  .home-text26 {
     color: var(--dl-color-gray-white);
     font-weight: 400;
   }
