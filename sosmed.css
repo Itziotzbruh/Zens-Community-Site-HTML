@@ -127,18 +127,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.sosmed-text {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .sosmed-navlink {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.sosmed-text01 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .sosmed-navlink1 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.sosmed-text {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.sosmed-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -250,7 +250,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.sosmed-text01 {
+.sosmed-text02 {
   color: var(--dl-color-secondary-700);
   font-size: 1.5rem;
   font-style: normal;
@@ -268,22 +268,19 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.sosmed-text02 {
-  margin-right: var(--dl-space-space-unit);
-}
 .sosmed-text03 {
   margin-right: var(--dl-space-space-unit);
 }
-.sosmed-text05 {
+.sosmed-text04 {
+  margin-right: var(--dl-space-space-unit);
+}
+.sosmed-text06 {
   font-size: 1.125rem;
   font-family: PT Sans;
   font-weight: 400;
   line-height: 1.625;
   text-transform: none;
   text-decoration: none;
-}
-.sosmed-text08 {
-  line-height: 1.6;
 }
 .sosmed-text09 {
   line-height: 1.6;
@@ -315,6 +312,9 @@
 .sosmed-text18 {
   line-height: 1.6;
 }
+.sosmed-text19 {
+  line-height: 1.6;
+}
 .sosmed-about1 {
   width: 100%;
   display: flex;
@@ -336,7 +336,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
 }
-.sosmed-text20 {
+.sosmed-text21 {
   align-self: flex-start;
   margin-bottom: 37px;
 }
@@ -359,12 +359,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.sosmed-text23 {
+.sosmed-text24 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.sosmed-text24 {
+.sosmed-text25 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 400;
@@ -374,7 +374,7 @@
   display: flex;
   position: relative;
 }
-.sosmed-navlink3 {
+.sosmed-navlink2 {
   color: var(--dl-color-blue-500);
   display: flex;
   padding-top: var(--dl-space-space-halfunit);
@@ -386,7 +386,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.sosmed-text25 {
+.sosmed-text26 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -395,7 +395,7 @@
   width: 24px;
   height: 24px;
 }
-.sosmed-navlink4 {
+.sosmed-navlink3 {
   display: contents;
 }
 .sosmed-container06 {
@@ -436,12 +436,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.sosmed-text26 {
+.sosmed-text27 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-halfunit);
 }
-.sosmed-text27 {
+.sosmed-text28 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-unit);
@@ -468,7 +468,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.sosmed-text28 {
+.sosmed-text29 {
   color: var(--dl-color-gray-white);
   margin-right: var(--dl-space-space-halfunit);
 }
@@ -630,33 +630,33 @@
     height: 146px;
     align-self: flex-end;
   }
-  .sosmed-navlink {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    align-self: flex-end;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .sosmed-navlink1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    align-self: flex-end;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .sosmed-text {
     color: rgb(255, 255, 255);
     font-size: 20px;
     align-self: flex-end;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-navlink {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .sosmed-navlink2 {
+  .sosmed-text01 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sosmed-navlink1 {
     color: rgb(255, 255, 255);
     font-size: 20px;
     align-self: flex-end;
@@ -688,17 +688,17 @@
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .sosmed-text01 {
+  .sosmed-text02 {
     margin-top: var(--dl-space-space-unit);
   }
   .sosmed-about1 {
     margin-top: 0px;
     padding-top: 0px;
   }
-  .sosmed-text20 {
+  .sosmed-text21 {
     text-align: center;
   }
-  .sosmed-text21 {
+  .sosmed-text22 {
     text-align: center;
   }
   .sosmed-card {
@@ -723,7 +723,7 @@
   .sosmed-links {
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .sosmed-navlink2 {
+  .sosmed-navlink1 {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-style: normal;
@@ -740,7 +740,7 @@
   .sosmed-card {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXWvzp8zzIU6Z4NWuJlEBqjO904EjGqyRRw&usqp=CAU');
   }
-  .sosmed-text24 {
+  .sosmed-text25 {
     color: var(--dl-color-gray-white);
     font-weight: 400;
   }
