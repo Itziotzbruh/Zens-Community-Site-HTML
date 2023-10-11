@@ -98,7 +98,7 @@
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-fiveunits);
-  padding-right: 56px;
+  padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fourunits);
   backdrop-filter: 10px;
@@ -211,8 +211,9 @@
 .home-link1 {
   color: #ffffff;
   font-size: 24px;
-  font-family: PT Sans;
-  font-weight: 700;
+  font-style: normal;
+  font-family: Arial;
+  font-weight: 400;
   line-height: 1.55;
   margin-right: var(--dl-space-space-tripleunit);
   text-transform: none;
@@ -221,8 +222,9 @@
 .home-link2 {
   color: rgb(255, 255, 255);
   font-size: 24px;
-  font-family: PT Sans;
-  font-weight: 700;
+  font-style: normal;
+  font-family: Arial;
+  font-weight: 400;
   line-height: 1.55;
   margin-right: var(--dl-space-space-tripleunit);
   text-transform: none;
@@ -231,8 +233,9 @@
 .home-link3 {
   color: #ffffff;
   font-size: 24px;
-  font-family: PT Sans;
-  font-weight: 700;
+  font-style: normal;
+  font-family: Arial;
+  font-weight: 400;
   line-height: 1.55;
   margin-right: var(--dl-space-space-tripleunit);
   text-transform: none;
@@ -241,8 +244,9 @@
 .home-link4 {
   color: #ffffff;
   font-size: 24px;
-  font-family: PT Sans;
-  font-weight: 700;
+  font-style: normal;
+  font-family: Arial;
+  font-weight: 400;
   line-height: 1.55;
   text-transform: none;
   text-decoration: none;
@@ -465,7 +469,7 @@
 .home-get-started {
   display: flex;
   text-decoration: none;
-  background-color: #80FF44;
+  background-color: #d6d6d6;
 }
 .home-text07 {
   color: rgb(12, 16, 12);
@@ -805,6 +809,7 @@
     background-color: rgba(0, 0, 0, 0.82);
   }
   .home-navbar {
+    padding-right: 0px;
     padding-bottom: var(--dl-space-space-tripleunit);
     background-color: rgba(0, 0, 0, 0);
   }
@@ -812,6 +817,9 @@
     width: 81px;
     height: 11px;
     padding-top: 0px;
+  }
+  .home-links-container {
+    width: 484px;
   }
   .home-hero {
     align-items: center;
@@ -1187,18 +1195,28 @@
     position: relative;
   }
   .home-mobile-menu {
-    top: -12px;
-    left: -91px;
     width: 285px;
-    margin: auto;
     padding: 16px;
-    position: absolute;
     align-self: flex-start;
     align-items: flex-start;
     justify-content: flex-start;
   }
   .home-links {
+    align-self: flex-start;
+    align-items: flex-start;
     padding-right: var(--dl-space-space-doubleunit);
+  }
+  .home-navlink {
+    align-self: flex-start;
+  }
+  .home-link {
+    align-self: flex-start;
+  }
+  .home-text {
+    align-self: flex-start;
+  }
+  .home-navlink1 {
+    align-self: flex-start;
   }
   .home-icon08 {
     fill: #ffffff;
